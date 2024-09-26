@@ -514,6 +514,7 @@ margin-left: 25px;
     background-color: #2aa584;
 }
 .mein_block_5_box_1, .mein_block_5_box_2 , .mein_block_5_box_3, .mein_block_5_box_4, .mein_block_5_box_5 ,.mein_block_5_box_6{
+    cursor: pointer;
     font-size: 28px;
     font-weight: 400;
     width: 1470px;
