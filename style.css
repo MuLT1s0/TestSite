@@ -331,6 +331,26 @@ margin-left: 25px;
 .mein_block_3_right_block{
     z-index: 1;
 }
+.mein_block_3_box_block{
+    display: flex;
+    align-items: center;
+}
+.mein_block_3_box_block_1 ,.mein_block_3_box_block_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+}
+.mein_block_3_box_block_2 , .mein_block_3_box_block_5 {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+.mein_block_3_box_block_3 img{
+    margin-left: 15px;
+    margin-right: 17px;
+}
 
 .meim_block_3_block_left{
     width: 900px;
@@ -374,7 +394,7 @@ margin-left: 25px;
     margin-left: 39px;
 }
 .mein_block_3_block_box_1_img_text{
-    width: 233px;
+    width: 350px;
     height: 37px;
     margin-left: 39px;
     margin-top: 13px;
@@ -482,7 +502,6 @@ margin-left: 25px;
     margin-top: 77px;
     margin-left: 299px;
     width: 1476px;
-    height: 646px;
 }
 .mein_block_5_top_text{
     font-weight: 600;
@@ -504,10 +523,18 @@ margin-left: 25px;
     justify-content: space-between;
     align-items: center;
 }
-.mein_block_5_box_6{
-    padding-bottom: 145px;
+
+.answer {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: none; /* Скрываем ответ по умолчанию */
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
 }
 footer{
+    margin-top: 145px;
     width: 100%;
     height: auto;
     background-color: #25252d;
