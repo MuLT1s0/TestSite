@@ -18,6 +18,8 @@ body{
     margin: 0 auto;
 }
 header{
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
 }
@@ -38,6 +40,7 @@ margin-left: 25px;
     color: #2cb48e;
 }
 .right_block_header{
+    cursor: pointer;
     margin-top: 45px;
     height: 83px;
     display: flex;
@@ -51,7 +54,6 @@ margin-left: 25px;
     align-items: center;
     justify-content: center;
     height: 77px;
-    
 }
 .span1{
     width: 80px;
@@ -61,6 +63,7 @@ margin-left: 25px;
     padding-left: 47px;
 }
 .span3{
+
     width: 120px;
     padding-left: 47px;
 }
@@ -554,6 +557,7 @@ footer{
     position: relative;
 }
 .tine_header img{
+    z-index: 0;
     position: absolute;
     left: -110px;
     top: -76px;
