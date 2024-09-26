@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteinerX1920">
+        <div class="conteinerx1327">
+            <header>
+                <div class="tine_header">
+                    <img src="/img/teni_header.svg" alt="">
+                </div>
+                <div class="left_block_header">
+                    <img src="/img/logo.svg" alt="" srcset="">
+                    <div class="text_logo_left_header">
+                        <span>Hamster</span><span class="green_header">Trade</span>
+                    </div>
+                </div>
+                <div class="right_block_header">
+                    <span class="span1">Обмен</span>
+                    <span class="span2">Как это работает</span>
+                    <span class="span3">Поддердка</span>
+                    <img src="/img/ru.svg" alt="">
+                </div>
+            </header>
+            <div class="teni_mein_block_1">
+                <img src="/img/teni_mein_block_1.svg" alt="">
+            </div>
+            <div class="mein_block">
+                <div class="conteinerx1327">
+                    
+                    <div class="mein_block_right_display">
+                        <div class="left_block_mein_1">
+                            <div class="top_block_mein_1">
+                                Безлимитные <br>
+                                Крипто Обмены
+                            </div>
+                            <div class="center_block_mein_1">
+                                Лучший криптообменник 2024 год
+                            </div>
+                            <div class="button_block_mein_1">
+                                <img src="/img/left_img.svg" alt="" >
+                                <img src="/img/right_img.svg" alt="" style="margin-left: 43px;">
+                            </div>
+                        </div>
+                        <div class="right_block_mein_1">
+                            <div class="block_mein_right_btn_1">
+                                <span>Фиксированный</span>
+                            </div>
+                            <div class="block_mein_center_1">
+                                <span class="block_mein_center_1_text">
+                                    Меняем
+                                </span>
+                                <div class="block_input_1">
+                                    <div class="block_input_1_1_text">
+                                        <span id="selectedCurrencyText" contenteditable="true">6200</span>
+                                    </div>
+                                    <div class="block_input_1_1">
+                                        <div class="block_input_1_2_text" id="selectedCurrencyText1">
+                                            HAMST
+                                        </div>
+                                        <img src="/img/token.svg" alt="" id="selectedCurrencyImg1">
+                                    </div>
+                                    
+                                    <!-- Выпадающий список валют -->
+                                    <div class="dropdown" id="currencyDropdown1">
+                                        <ul>
+                                            <li data-symbol="HMSTR" data-img="/img/token.svg">
+                                                <div class="li_block_img">
+                                                    <img src="/img/token.svg" alt="">
+                                                </div>
+                                                <div class="li_block_text">
+                                                    <div class="li_block_top_text">
+                                                        HAMSTR
+                                                    </div>
+                                                    <div class="left_block_button_text">
+                                                        Hamster Kombat
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li data-symbol="ETH" data-img="/img/eth.svg">
+                                                <div class="li_block_img">
+                                                    <img src="/img/eth.svg" alt="">
+                                                </div>
+                                                <div class="li_block_text">
+                                                    <div class="li_block_top_text">
+                                                        ETH
+                                                    </div>
+                                                    <div class="left_block_button_text">
+                                                        Ethereum
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li data-symbol="USDT" data-img="/img/usdt.svg">
+                                                <div class="li_block_img">
+                                                    <img src="/img/usdt.svg" alt="">
+                                                </div>
+                                                <div class="li_block_text">
+                                                    <div class="li_block_top_text">
+                                                        USDT
+                                                    </div>
+                                                    <div class="left_block_button_text">
+                                                        Tether US
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li data-symbol="SOL" data-img="/img/SOL.svg">
+                                                <div class="li_block_img">
+                                                    <img src="/img/SOL.svg" alt="">
+                                                </div>
+                                                <div class="li_block_text">
+                                                    <div class="li_block_top_text">
+                                                        SOL
+                                                    </div>
+                                                    <div class="left_block_button_text">
+                                                        Solana
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li data-symbol="USDC" data-img="/img/usdc.svg">
+                                                <div class="li_block_img">
+                                                    <img src="/img/usdc.svg" alt="">
+                                                </div>
+                                                <div class="li_block_text">
+                                                    <div class="li_block_top_text">
+                                                        USDC
+                                                    </div>
+                                                    <div class="left_block_button_text">
+                                                        USD Coin
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <!-- Добавьте другие валюты по необходимости -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="block_text_1">
+                                    <div class="left_block_text_1">
+                                        1 HAST ~ 81 RUB
+                                    </div>
+                                    <div class="rigth_block_text_1">
+                                        <img src="/img/btn.svg" alt="">
+                                    </div>
+                                </div>
+                                <span class="block_mein_center_2_text">
+                                    Получаете
+                                </span>
+                                <div class="block_input_2">
+                                    <div class="block_input_2_1_text " >
+                                        <span >~ 502.200</span>
+                                    </div>
+                                    <div class="block_input_2_1">
+                                        <div class="block_input_2_2_text" id="selectedCurrencyText2">
+                                            RUB
+                                        </div>
+                                        <img src="/img/RUB.svg" id="selectedCurrencyImg2">
+                                        <!-- Выпадающий список -->
+                                        <div class="dropdown_2" id="currencyDropdown2">
+                                            <ul>
+                                                <li data-symbol="RUB" data-img="/img/RUB.svg">
+                                                    <div class="li_block_img">
+                                                        <img src="/img/RUB.svg" alt="">
+                                                    </div>
+                                                    <div class="li_block_text">
+                                                        <div class="li_block_top_text">
+                                                            RUB
+                                                        </div>
+                                                        <div class="left_block_button_text">
+                                                            Рубли
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li data-symbol="EUR" data-img="/img/EUR.svg">
+                                                    <div class="li_block_img">
+                                                        <img src="/img/EUR.svg" alt="">
+                                                    </div>
+                                                    <div class="li_block_text">
+                                                        <div class="li_block_top_text">
+                                                            EUR
+                                                        </div>
+                                                        <div class="left_block_button_text">
+                                                            EUR
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li data-symbol="USD" data-img="/img/USD.svg">
+                                                    <div class="li_block_img">
+                                                        <img src="/img/USD.svg" alt="">
+                                                    </div>
+                                                    <div class="li_block_text">
+                                                        <div class="li_block_top_text">
+                                                            USD
+                                                        </div>
+                                                        <div class="left_block_button_text">
+                                                            United States dollar
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_mein_right_btn_2_button">
+                                    <span>Начать обмен</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mein_block_2">
+            <div class="mein_block_text_2">
+                <span class="mein_block_text_2_span">Почему выбирают нас ?</span>
+                <div class="conteinerx1167">
+                    <div class="mein_block_line_1"></div>
+                    <div class="mein_block_2_1">
+                        <div class="left_mein_block_1_1_1">
+                            <div class="top_left_mein_block_1_1_1">
+                                <img src="/img/lock.svg" alt="">
+                                <span>Техническая поддержка 24/7</span>
+                            </div>
+                            <div class="button_left_mein_block_1_1_1">
+                                <img src="/img/lock.svg" alt="">
+                                <span>Без регистрации</span>
+                            </div>
+                        </div>
+                        <div class="right_mein-block_1_1_2">
+                            <div class="top_left_mein_block_1_2_1">
+                                <img src="/img/lock.svg" alt="">
+                                <span>Сверхбыстрые транзакции</span>
+                            </div>
+                            <div class="button_left_mein_block_1_2_1">
+                                <img src="/img/lock.svg" alt="">
+                                <span>Низкие лимиты на обмен</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mein_block_3">
+            <div class="meim_block_3_block_left">
+                <div class="mein_block_3_text_1">
+                    Последние обмены
+                </div>
+                <div class="mein_block_3_line_1"></div>
+                <div class="mein_block_3_block_box">
+                    <div class="mein_block_3_left_block">
+                        <div class="mein_block_3_left_block_box1">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+                                
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                        <div class="mein_block_3_left_block_box2">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+                                
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                        <div class="mein_block_3_left_block_box3">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+                                
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mein_block_3_right_block">
+                        <div class="mein_block_3_left_block_box1_1">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+                                
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                        <div class="mein_block_3_left_block_box1_2">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+                                
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                        <div class="mein_block_3_left_block_box1_3">
+                            <div class="mein_block_3_block_box_1_text">
+                                5313.83 HAMST
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text">
+
+                            </div>
+                            <div class="mein_block_3_block_box_1_img_text_button">
+                                <span>25 сен 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mein_block_3_block_right">
+                <img src="/img/img_right.svg">
+            </div>
+        </div>
+        <div class="mein_block_4">
+            <div class="mein_block_4_top_text">
+                Как это работает
+            </div>
+            <div class="mein_block_4_line"></div>
+            <div class="mein_block_4_top_box">
+                <div class="mein_block_4_top_box_left">
+                    <div class="mein_block_4_top_box_left_top">
+                        <div class="mein_block_4_top_box_left_top_left">
+                            Выбрать и предоставить
+                        </div>
+                        <div class="mein_block_4_top_box_left_top_right">
+                            01
+                        </div>
+                    </div>
+                    <div class="mein_block_4_button_box_left_button">
+                        Просто выберите криптовалюты, которые вы хотите обменять, и предоставьте детали. Мы рассчитаем курс за доли секунды
+                    </div>
+                </div>
+                <div class="mein_block_4_top_box_right">
+                    <div class="mein_block_4_top_box_rigth_button">
+                        <div class="mein_block_4_top_box_left_top_left">
+                            Подтвердить и отправить 
+                        </div>
+                        <div class="mein_block_4_top_box_left_top_right">
+                            02
+                        </div>
+                    </div>
+                    <div class="mein_block_4_button_box_right_button">
+                        Еще раз проверьте данные и подтвердите транзакцию. Отправьте средства на адрес депозита.
+                    </div>
+                </div>
+            </div>
+            <div class="mein_block_4_button_box_left_button_button">
+                <div class="mein_block_4_top_box_left_button">
+                    <div class="mein_block_4_top_box_left_top_button">
+                        <div class="mein_block_4_top_box_left_top_left_button">
+                            Расслабьтесь и получите
+                        </div>
+                        <div class="mein_block_4_top_box_left_top_right_button">
+                            03
+                        </div>
+                    </div>
+                    <div class="mein_block_4_button_box_left_button_button1">
+                        Немного расслабьтесь, пока мы обрабатываем транзакцию. CoinCraddle находит лучший курс для обмена, быстро конвертирует вашу криптовалюту и безопасно отправляет ее на адрес вашего кошелька за несколько минут.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mein_block_5">
+            <div class="mein_block_5_top_text">
+                Часто Задаваемые Вопросы
+            </div>
+            <div class="mein_block_5_line"></div>
+            <div class="mein_block_5_box_1">
+                Нужна ли регистрация на сайте для совершения обмена?
+                <img src="img/vector.svg" alt="">
+            </div>
+            <div class="mein_block_5_box_2">
+                Сколько времени займет обмен?
+                <img src="img/vector.svg" alt="">
+            </div>
+            <div class="mein_block_5_box_3">
+                Я перевел свои средства на платформу, но ничего не получил взамен?
+                <img src="img/vector.svg" alt="">
+            </div>
+            <div class="mein_block_5_box_4">
+                Где можно отследить статус заявки?
+                <img src="img/vector.svg" alt="">
+            </div>
+            <div class="mein_block_5_box_5">
+                Можно ли отказаться от обмена?
+                <img src="img/vector.svg" alt="">
+            </div>
+            <div class="mein_block_5_box_6">
+                Можно ли изменить реквизиты, если ошибся?
+                <img src="img/vector.svg" alt="">
+            </div>
+        </div>
+        <footer>
+            <img class="footer1" src="img/footer1.svg" alt="">
+            <img class="footer2" src="img/footer2.svg" alt="">
+        </footer>
+    </div>
+    <script>
+        // Получаем элементы
+        const dropdown = document.getElementById('currencyDropdown1');
+        const trigger = document.querySelector('.block_input_1_1');
+        const selectedCurrencyText = document.getElementById('selectedCurrencyText1');
+        const selectedCurrencyImg = document.getElementById('selectedCurrencyImg1');
+
+        // Добавляем событие клика на элемент для открытия списка
+        trigger.addEventListener('click', function() {
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Обрабатываем выбор элемента из выпадающего списка
+        const currencyItems1 = dropdown.querySelectorAll('li');
+
+        currencyItems1.forEach(function(item) {
+            item.addEventListener('click', function() {
+                const symbol = item.getAttribute('data-symbol'); // Получаем символ валюты
+                const imgSrc = item.getAttribute('data-img'); // Получаем ссылку на изображение
+
+                // Меняем текст и изображение
+                selectedCurrencyText.textContent = symbol;
+                selectedCurrencyImg.src = imgSrc;
+
+                // Скрываем выпадающий список после выбора
+                dropdown.style.display = 'none';
+            });
+        });
+
+        // Закрытие списка при клике вне его области
+        document.addEventListener('click', function(event) {
+            if (!trigger.contains(event.target) && !dropdown.contains(event.target)) {
+                dropdown.style.display = 'none';
+            }
+        });
+
+        // Находим элемент с классом block_input_2_1
+        // Находим необходимые элементы
+        const dropdown2 = document.getElementById('currencyDropdown2');
+        const dropdownTrigger = document.querySelector('.block_input_2_2_text');
+        const selectedCurrencyText2 = document.getElementById('selectedCurrencyText2');
+        const selectedCurrencyImg2 = document.getElementById('selectedCurrencyImg2');
+
+        // Добавляем событие клика на элемент для открытия списка
+        dropdownTrigger.addEventListener('click', function() {
+            dropdown2.style.display = dropdown2.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Обрабатываем выбор элемента из выпадающего списка
+        const currencyItems2 = dropdown2.querySelectorAll('li');
+
+        currencyItems2.forEach(function(item) {
+            item.addEventListener('click', function() {
+                const symbol2 = item.getAttribute('data-symbol'); // Получаем символ валюты
+                const imgSrc2 = item.getAttribute('data-img'); // Получаем ссылку на изображение
+
+                // Меняем текст и изображение
+                selectedCurrencyText2.textContent = symbol2;
+                selectedCurrencyImg2.src = imgSrc2;
+
+                // Скрываем выпадающий список после выбора
+                dropdown2.style.display = 'none';
+            });
+        });
+
+        // Закрытие списка при клике вне его области
+        document.addEventListener('click', function(event) {
+            if (!dropdownTrigger.contains(event.target) && !dropdown2.contains(event.target)) {
+                dropdown2.style.display = 'none';
+            }
+        });
+        // Получаем элемент .rigth_block_text_1
+        const rigthBlockText1 = document.querySelector('.rigth_block_text_1');
+
+        // Добавляем событие клика
+        rigthBlockText1.addEventListener('click', function() {
+            const img = rigthBlockText1.querySelector('img');
+            
+            // Добавляем класс для вращения
+            img.style.transform = 'rotate(360deg)';
+            
+            // Убираем вращение после завершения анимации (при необходимости)
+            setTimeout(function() {
+                img.style.transform = 'rotate(0deg)';
+            }, 500); // 500 мс — время анимации
+        });
+        const editableSpan = document.getElementById('selectedCurrencyText');
+        const maxLength = 18; // Задайте максимальное количество символов
+
+        editableSpan.addEventListener('input', function() {
+            // Проверяем длину текста
+            if (editableSpan.textContent.length > maxLength) {
+                // Если длина превышает максимальную, обрезаем текст
+                editableSpan.textContent = editableSpan.textContent.slice(0, maxLength);
+                
+                // Перемещаем курсор в конец текста
+                placeCursorAtEnd(editableSpan);
+            }
+        });
+
+        // Функция для перемещения курсора в конец
+        function placeCursorAtEnd(el) {
+            const range = document.createRange();
+            range.selectNodeContents(el);
+            range.collapse(false); // Перемещаем в конец
+            const sel = window.getSelection();
+            sel.removeAllRanges();
+            sel.addRange(range);
+        }
+
+    </script>
+</body>
+</html>
