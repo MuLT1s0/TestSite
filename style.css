@@ -70,7 +70,7 @@ margin-left: 25px;
     padding-left: 47px;
 }
 .mein_block{
-    overflow: hidden;
+
     position: relative;
     z-index: 1;
     margin-top: 112px;
@@ -246,7 +246,6 @@ margin-left: 25px;
 }
 .mein_block_2{
     user-select: none;
-    overflow: hidden;
     position: relative;
     z-index: 1;
     margin-top: 144px;
@@ -536,13 +535,22 @@ margin-left: 25px;
 }
 
 .answer {
+    max-height: 0; /* Начальное значение высоты - 0 */
+    overflow: hidden; /* Обрезаем содержимое, если оно выходит за границы */
+    opacity: 0; /* Изначально элемент полностью прозрачный */
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Переход для высоты и прозрачности */
     margin-left: 10px;
     margin-top: 5px;
-    display: none; /* Скрываем ответ по умолчанию */
     padding: 10px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 18px;
+}
+.answer.show {
+    max-height: 100px; /* Максимальная высота, можно изменить в зависимости от содержания */
+    opacity: 1; /* Когда блок виден, делаем его полностью непрозрачным */
+    padding: 10px; /* Возвращаем отступы при открытии */
+    margin-bottom: 10px;
 }
 footer{
     margin-top: 145px;
