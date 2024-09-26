@@ -92,6 +92,9 @@ margin-left: 25px;
     line-height: 24.38px;
     color: #FFFFFFB2;
 }
+.button_block_mein_1{
+    cursor: pointer;
+}
 .right_block_mein_1{
     display: flex;
     width: 660px;
