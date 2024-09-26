@@ -108,9 +108,10 @@ function placeCursorAtEnd(el) {
 }
 function toggleAnswer(answerId) {
     const answerElement = document.getElementById(answerId);
-    if (answerElement.style.display === "none" || answerElement.style.display === "") {
-        answerElement.style.display = "block"; // Показываем ответ
+    
+    if (answerElement.classList.contains('show')) {
+        answerElement.classList.remove('show'); // Скрываем ответ
     } else {
-        answerElement.style.display = "none"; // Скрываем ответ
+        answerElement.classList.add('show'); // Показываем ответ
     }
 }
