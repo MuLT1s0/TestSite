@@ -10,11 +10,11 @@ body{
 
 }
 .conteinerX1920 {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .conteinerx1327 {
-    width: 1327px;
+    max-width: 1327px;
     margin: 0 auto;
 }
 header{
@@ -243,7 +243,6 @@ margin-left: 25px;
     position: relative;
     z-index: 1;
     margin-top: 144px;
-    width: 1920px;
     height: 472px;
     background: #25252D;
     display: flex;
@@ -344,7 +343,7 @@ margin-left: 25px;
     z-index: 0;
     position: absolute;
     top: 0px;
-    left: -261px;
+    left: -307px;
 }
 .mein_block_3_left_block_box1{
     width: 429px;
@@ -394,7 +393,6 @@ margin-left: 25px;
 .mein_block_4{
     display: flex;
     flex-direction: column;
-    width: 1920px;
     height: 640px;
     background-color: #25252D;
 }
@@ -529,7 +527,7 @@ footer{
 }
 .tine_header img{
     position: absolute;
-    left: -100px;
+    left: -110px;
     top: -76px;
     opacity: 0.8;
 }
@@ -539,7 +537,7 @@ footer{
 .teni_mein_block_1 img{
     position: absolute;
     z-index: 0;
-    left:-298px;
+    left:-305px;
     top: -76px;
     opacity: 0.8;
 }
